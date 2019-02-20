@@ -9,6 +9,12 @@
     <keyboard-shortcut first-keystroke="ctrl meta alt open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl meta alt close_bracket" />
   </action>
+  <action id="EditorScrollBottom">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorScrollTop">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="Macro.run whole test file">
     <keyboard-shortcut first-keystroke="ctrl meta alt r" />
   </action>
@@ -45,11 +51,5 @@
   </action>
   <action id="org.jetbrains.plugins.ruby.tasks.rake.actions.RakeTasksPopupAction">
     <keyboard-shortcut first-keystroke="alt r" />
-  </action>
-  <action id="EditorScrollBottom">
-    <keyboard-shortcut first-keystroke="meta DOWN" />
-  </action>
-  <action id="EditorScrollTop">
-    <keyboard-shortcut first-keystroke="meta UP" />
   </action>
 </keymap>
